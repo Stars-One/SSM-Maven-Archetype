@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 http://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd" name="SSM-Template"
+    xmlns="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.xml</include>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.jsp</include>
+        <include>**/*.xml</include>
+        <include>**/*.js</include>
+        <include>**/*.css</include>
+        <include>**/*.html</include>
+        <include>**/*.png</include>
+        <include>**/*.jpg</include>
+        <include>**/*.jpeg</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/java/controller</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/java/dao</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/java/model</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/resources/mapper</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/webapp/css</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/webapp/img</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/webapp/js</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/webapp/view</directory>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>SSMTemplate.iml</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
