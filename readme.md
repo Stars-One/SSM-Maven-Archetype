@@ -6,7 +6,7 @@
 
 之后，在IDEA的Maven项目创建界面添加此骨架
 
-![](https://img2018.cnblogs.com/blog/1210268/201910/1210268-20191012132328603-792421052.png)
+![](https://github.com/Stars-One/SSM-Maven-Archetype/blob/master/img/show.png?raw=true)
 
 之后像平常那样创建一个maven项目
 ## 使用注意事项
